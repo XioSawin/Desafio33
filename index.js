@@ -17,7 +17,7 @@ const numCPUs = require('os').cpus().length;
 
 const portCL = process.argv[2] || 5504;
 const FACEBOOK_APP_ID = process.argv[3] || '1088323731578912';
-const FACEBOOK_APP_SECRET = process.argv[4] || 'a543fd2feda2975c012023c86d34b8b3';
+const FACEBOOK_APP_SECRET = process.argv[4] || '00000000000000000';
 const modoCluster = process.argv[5] == 'CLUSTER';
 
 
